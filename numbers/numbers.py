@@ -109,3 +109,18 @@ print(
 print(
     f"{type(var_float).__name__} % {type(var_float).__name__} = {type(var_float % var_float).__name__}"
 )
+
+print("\n### Check if value is a number ###\n")
+
+
+def isNum(variable):
+    return type(variable) in [int, float, complex]
+
+
+print(isNum(67))
+print(isNum(45.88))
+print(isNum(1 + 2j))
+print(isNum("78,99"))
+print(isNum(True))
+print(isNum([78, 99]))
+print(isNum((78, 99)))
