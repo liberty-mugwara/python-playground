@@ -84,3 +84,8 @@ print(f"list_1.insert(2, 44) will change list_1 to {list_1}")
 list_1 = [1, 2, 3]
 print(f"list_1 = {list_1}")
 print(f"list_1.pop() = {list_1.pop()}")
+
+list_1 = [1, 2, 3]
+print(f"list_1 = {list_1}")
+list_1.remove(2)
+print(f"list_1.remove(2) will change list_1 to {list_1}")
