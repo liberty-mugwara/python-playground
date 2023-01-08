@@ -69,3 +69,5 @@ list_1 = ["aa", "a", "apple", "dog", "b"]
 print(f"list_1 = {list_1}")
 list_1.sort()
 print(f"list_1.sort() will change list_1 to {list_1}")
+
+# more on sorting, see ./inbuilt-sorting.py
