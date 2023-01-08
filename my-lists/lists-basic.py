@@ -38,3 +38,8 @@ list_1 = [1, 2, 3]
 print(f"list_1 = {list_1}")
 list_1.append(4)  # append only adds one value at the end of the list
 print(f"list_1 after list_1.append(4) = {list_1}")
+
+list_1 = [1, 2, 3]
+print(f"list_1 = {list_1}")
+list_1.clear()
+print(f"list_1 after list_1.clear() = {list_1}")
