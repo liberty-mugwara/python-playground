@@ -12,3 +12,7 @@ print(f"size of my_list is {len(my_list)}, size of my_list2 is {len(my_list2)}")
 print("\n>>> Changing List Items <<<\n")
 my_list[0] = "grapes"
 print(f"my_list = {my_list}")
+
+print("\n>>> Getting List Items <<<\n")
+print(f"my_list first item is = {my_list[0]}")
+print(f"my_list last item is = {my_list[-1]}")
