@@ -80,3 +80,7 @@ print(f"list_1 = {list_1}")
 list_1.insert(2, 44)
 print(f"list_1.insert(2, 44) will change list_1 to {list_1}")
 # list.insert adds an item after the provided index
+
+list_1 = [1, 2, 3]
+print(f"list_1 = {list_1}")
+print(f"list_1.pop() = {list_1.pop()}")
