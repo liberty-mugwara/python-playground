@@ -94,3 +94,8 @@ list_1 = [1, 2, 3]
 print(f"list_1 = {list_1}")
 list_1.reverse()
 print(f"list_1.reverse() will change list_1 to {list_1}")
+
+list_1 = [1, 2, 5, 7, 3, 6, 4]
+print(f"list_1 = {list_1}")
+list_1.sort()
+print(f"list_1.sort() will change list_1 to {list_1}")
