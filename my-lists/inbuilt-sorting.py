@@ -32,3 +32,10 @@ list_1.sort(key=lambda element: element["year"])
 print(
     f"list_1.sort(key=lambda element:element['year']) will change list_1 to {json.dumps(list_1,indent=2)}"
 )
+
+print("==> Sorting without modifying the original list)")
+list_1 = [1, 2, 5, 7, 3, 6, 4]
+print(f"list_1 = {list_1}")
+sorted_list = sorted(list_1, reverse=True)
+print(f"list_1 = {list_1}")
+print(f"sorted_list = {sorted_list}")
