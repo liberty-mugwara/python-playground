@@ -60,3 +60,8 @@ print(f"list_1_copy = {list_1_copy}")
 
 list_1[3][0] = 6  # changing a child's item affects the copy
 print(f"list_1_copy = {list_1_copy}")
+
+list_1 = [1, 2, 3, 2, 4, 2]
+print(f"list_1 = {list_1}")
+print(f"list_1.count(2) = {list_1.count(2)}")
+# NB: list.count(val) counts the number of occurrences of the value, don't mistake with len(iterable)
