@@ -70,3 +70,7 @@ list_1 = [1, 2, 3]
 print(f"list_1 = {list_1}")
 list_1.extend([4, 5, 6, 7])
 print(f"list_1.extend([4,5,6,7]) will change list_1 to {list_1}")
+
+list_1 = [1, 2, 3]
+print(f"list_1 = {list_1}")
+print(f"list_1.index(2) = {list_1.index(2)}")
