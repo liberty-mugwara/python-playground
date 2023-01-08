@@ -29,3 +29,6 @@ for item in my_list:
 print("\ntraversing my_list2 ... Items are", end=" ")
 for i in range(len(my_list2)):
     print(my_list2[i], end=", ")
+
+for x in []:
+    print("This never happens.")
