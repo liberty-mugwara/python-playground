@@ -65,3 +65,8 @@ list_1 = [1, 2, 3, 2, 4, 2]
 print(f"list_1 = {list_1}")
 print(f"list_1.count(2) = {list_1.count(2)}")
 # NB: list.count(val) counts the number of occurrences of the value, don't mistake with len(iterable)
+
+list_1 = [1, 2, 3]
+print(f"list_1 = {list_1}")
+list_1.extend([4, 5, 6, 7])
+print(f"list_1.extend([4,5,6,7]) will change list_1 to {list_1}")
