@@ -16,3 +16,7 @@ print(f"my_list = {my_list}")
 print("\n>>> Getting List Items <<<\n")
 print(f"my_list first item is = {my_list[0]}")
 print(f"my_list last item is = {my_list[-1]}")
+
+print("\n>>> List Contains Item <<<\n")
+print(f"my_list contains 'car'?: {'car' in my_list}")
+print(f"my_list contains 'milk'?: {'milk' in my_list}")
