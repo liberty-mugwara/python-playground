@@ -47,3 +47,16 @@ print(f"list_1 after list_1.clear() = {list_1}")
 list_1 = [1, 2, 3]
 print(f"list_1 = {list_1}")
 print(f"list_1.copy() = {list_1.copy()}")
+
+list_1 = [1, 2, 3]
+print(f"list_1 = {list_1}")
+print(f"list_1.copy() = {list_1.copy()}")
+
+list_1 = [1, 2, 3, [4, 5]]
+list_1_copy = list_1.copy()
+print(f"list_1_copy = {list_1_copy}")
+list_1[1] = 6  # changing a direct item doesn't affect the copy
+print(f"list_1_copy = {list_1_copy}")
+
+list_1[3][0] = 6  # changing a child's item affects the copy
+print(f"list_1_copy = {list_1_copy}")
