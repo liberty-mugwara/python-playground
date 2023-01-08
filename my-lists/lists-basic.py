@@ -43,3 +43,7 @@ list_1 = [1, 2, 3]
 print(f"list_1 = {list_1}")
 list_1.clear()
 print(f"list_1 after list_1.clear() = {list_1}")
+
+list_1 = [1, 2, 3]
+print(f"list_1 = {list_1}")
+print(f"list_1.copy() = {list_1.copy()}")
