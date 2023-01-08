@@ -20,3 +20,12 @@ print(f"my_list last item is = {my_list[-1]}")
 print("\n>>> List Contains Item <<<\n")
 print(f"my_list contains 'car'?: {'car' in my_list}")
 print(f"my_list contains 'milk'?: {'milk' in my_list}")
+
+print("\n>>> Traversing a List <<<\n")
+print("traversing my_list ... Items are", end=" ")
+for item in my_list:
+    print(item, end=", ")
+
+print("\ntraversing my_list2 ... Items are", end=" ")
+for i in range(len(my_list2)):
+    print(my_list2[i], end=", ")
