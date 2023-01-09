@@ -1,4 +1,4 @@
-from ..util.util import prettyPrint
+from utils.util import prettyPrint
 
 my_dict = {"id": 1, "name": "Liberty", "age": 26}
 my_dict2 = dict([("id", 1), ("name", "Liberty"), ("age", 26)])
